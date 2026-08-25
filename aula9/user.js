@@ -1,7 +1,7 @@
 var users = JSON.parse(localStorage.getItem("users") ) || [];
 var loggeded = JSON.parse(localStorage.getItem("loggeded") ) 
  {};
-var Ola= document.getElementById("ola ");
+var Ola= document.getElementById("ola");
 if (loggeded && ola) ola.innerHTML= "ola " + loggeded.nome
 
 

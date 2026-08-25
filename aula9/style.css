@@ -44,24 +44,24 @@
    7. SELETORES POR TAG
    ========================================================= */
 body {
-  background-color: #47a8a8;
+  background-color: #FEFEFE;
   font-family: "Playwrite DE SAS Guides", cursive, normal;
   font-weight: 400;
-  color: #050505;
+  color: #000000;
   margin: 0;
 }
 
 h2 {
-  color: #070018;
+  color: #333333;
 }
 
 p {
-  color: #8272db;
+  color: #030539;
   font-family: "Lucida Sans", Verdana, sans-serif;
 }
 
 a {
-  color: #fff9f9;
+  color: #2212b1;
   text-decoration: none;
   font-family: "Lucida Sans", Verdana, sans-serif;
 }
@@ -86,11 +86,11 @@ a {
 }
 
 #prices {
-  background-color: #9217aa;
+  background-color: #f2f9ac;
 }
 
 #feature {
-  background-color: #6a6097;
+  background-color: #acf9c0;
 }
 
 /* =========================================================
@@ -525,7 +525,7 @@ a {
 }
 
 .bg-prices {
-  background-color: #22263b;
+  background-color: #f2f9ac;
 }
 
 /* =========================================================
@@ -540,7 +540,7 @@ a {
    hover:bg-dark
    ========================================================= */
 .hover\:bg-primary:hover {
-  background-color: #0c045a;
+  background-color: #240fe5;
 }
 
 .hover\:bg-secondary:hover {
@@ -725,6 +725,14 @@ a {
 
 .flex {
   display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
 }
 
 /* =========================================================
@@ -919,7 +927,7 @@ a {
 }
 
 .focus\:outline-primary:focus {
-  outline: 2px solid #6758f0;
+  outline: 2px solid #240fe5;
   outline-offset: 2px;
 }
 
